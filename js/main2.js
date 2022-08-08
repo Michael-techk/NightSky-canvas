@@ -197,7 +197,7 @@ class Sky{
         window.requestAnimationFrame((now) => this.draw(now))
     }
 
-    runForestRun() {
+    runNightSky() {
         //w tym kodzie wywołuje pozostałe funkcje
         this.initCanvas();
         this.starTable(500);
@@ -207,4 +207,4 @@ class Sky{
 }
 
 const sky = new Sky(document.querySelector('#canvas'));
-sky.runForestRun()
+sky.runNightSky()
